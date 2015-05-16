@@ -9,6 +9,6 @@
 
 | Curso | Ganador |
 | ----: | ------- |
-| 1-3   |  ![Invenbot 2011-2014](1-3season/pet.png) |
-| 4     | ![Invenbot 2014-2015](4season/pet.png) |
+| 1-3   |  ![Invenbot 2011-2014](1-3season/pet_thumbnail.png) |
+| 4     | ![Invenbot 2014-2015](4season/pet_thumbnail.png) |
 
