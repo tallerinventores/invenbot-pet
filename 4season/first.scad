@@ -1,5 +1,6 @@
 $fn=360;
 
+/* Figura */
 translate([0,0,56.5]) cabeza();
 translate([13.25,0,42]) rotate([-90,0,0]) brazo();
 translate([-13.25,0,42]) rotate([-90,0,0]) brazo();
@@ -8,6 +9,38 @@ translate([5,0,7]) pierna();
 translate([-5,0,7]) pierna();
 peana();
 translate([-15,-35,46.5]) acc();
+
+
+/* Corte para impresión */
+/*//mitad delantera
+*difference() {
+    union() {
+        translate([0,0,56.5]) cabeza();
+        translate([13.25,0,42]) rotate([-90,0,0]) brazo();
+        translate([-13.25,0,42]) rotate([-90,0,0]) brazo();
+        translate([0,0,27]) cuerpo();
+        translate([5,0,7]) pierna();
+        translate([-5,0,7]) pierna();
+        peana();
+    }
+    translate([-20,0,-1]) cube([40,40,70]);
+}
+//mitad trasera
+*difference() {
+    union() {
+        translate([0,0,56.5]) cabeza();
+        translate([13.25,0,42]) rotate([-90,0,0]) brazo();
+        translate([-13.25,0,42]) rotate([-90,0,0]) brazo();
+        translate([0,0,27]) cuerpo();
+        translate([5,0,7]) pierna();
+        translate([-5,0,7]) pierna();
+        peana();
+    }
+    translate([-20,-40,-1]) cube([40,40,70]);
+}
+//acc
+acc();
+*/
 
 module acc() {
     cube([30,20,2]);
