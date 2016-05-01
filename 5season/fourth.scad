@@ -1,0 +1,20 @@
+cube([20,25,1]);
+translate([10,10,1]){
+cylinder(r=2,h=9,$fn=60);}
+translate([10,14,1]){
+cylinder(r=2,h=9,$fn=60);}
+translate([10,12,10]){
+cylinder(r=5,h=10,$fn=60);}
+translate([10,12,24]){sphere(r=5,$fn=200);}
+translate([10,19,18]){
+cylinder(r=2,h=12,$fn=60);}
+translate([10,5,18]){
+cylinder(r=2,h=12,$fn=60);}
+translate([10,0,30]){
+    cube([1,25,1]);}
+translate([10,2,30]){
+    rotate([90,0,0])
+    cylinder(r=6,h=3,$fn=48);}
+translate([10,25,30]){
+    rotate([90,0,0])
+    cylinder(r=6,h=3,$fn=48);}
